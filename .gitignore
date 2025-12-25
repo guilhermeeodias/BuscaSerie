@@ -1,0 +1,43 @@
+# --- Logs e Diagnósticos ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Dependências (Nunca envie isso!) ---
+node_modules
+.pnp
+.pnp.js
+
+# --- Build de Produção (Gerado pelo Vite) ---
+dist
+dist-ssr
+*.local
+
+# --- Editor e Sistema Operacional ---
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Variáveis de Ambiente (SEGURANÇA CRÍTICA) ---
+# Nunca suba chaves de API ou senhas para o GitHub
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Testes e Cache ---
+coverage
+.eslintcache
+*.tsbuildinfo
